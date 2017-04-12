@@ -1,0 +1,16 @@
+<style>
+#ryu {
+  width: 435px;
+  height: 267px;
+  margin: -5% auto 0 auto; /*auto to bring it to center */
+  background:  url(ryu-sprite-demo.png);
+  animation: sprite 3.5s steps(45) infinite;
+}
+
+@keyframes sprite {
+  from { background-position: 0 0%; }
+  to { background-position: 0 100%; }
+}
+</style>
+
+<div id="ryu" > </div>

@@ -1,0 +1,18 @@
+<style>
+#ball{
+	background: url(fav.png);
+	width: 100px;
+	height: 125px;
+	animation: sqrx 1s steps(8) infinite;
+	animation: sqry 4s steps(4) infinite;
+}
+@keyframes sqrx{
+	from{ background-position: 0px;}
+	to { background-position: -800px;}
+}
+@keyframes sqry{
+	from{ background-position-y: 0px;}
+	to { background-position-y: -500px;}
+}
+</style>
+<div id="ball"> </div>
